@@ -1,0 +1,48 @@
+FE2D is initialized successfully
+P0: (1.40,24.11)
+Frame
+	Maximum value: 10000
+	Minimum value: 88
+	Average value: 5024.23
+	Median value: 5017.00
+	Maximum probability distribution: 930.52
+	Distribution count: 100
+Time (ns)
+	Maximum value: 100.00 ns
+	Minimum value: 0.00 ns
+	Average value: 50.24 ns
+	Median value: 50.17 ns
+	Maximum probability distribution: 9.31 ns
+	Distribution count: 100 ns
+P1: (0.78,23.78)
+Frame
+	Maximum value: 9981
+	Minimum value: 3
+	Average value: 4546.93
+	Median value: 1635.00
+	Maximum probability distribution: 52.89
+	Distribution count: 68
+Time (ns)
+	Maximum value: 99.00 ns
+	Minimum value: 0.00 ns
+	Average value: 45.47 ns
+	Median value: 16.35 ns
+	Maximum probability distribution: 0.53 ns
+	Distribution count: 68 ns
+P2: (0.57,23.93)
+Frame
+	Maximum value: 9960
+	Minimum value: 1
+	Average value: 1100.41
+	Median value: 81.00
+	Maximum probability distribution: 50.80
+	Distribution count: 22
+Time (ns)
+	Maximum value: 99.00 ns
+	Minimum value: 0.00 ns
+	Average value: 11.00 ns
+	Median value: 0.81 ns
+	Maximum probability distribution: 0.51 ns
+	Distribution count: 22 ns
+P(state[0]->state[0])=96.58%	P(state[0]->state[1])=1.02%	
+P(state[1]->state[0])=1.22%	P(state[1]->state[1])=1.18%

@@ -1,0 +1,162 @@
+set file [open 1.log r]
+set output [open 1.dat w]
+set nx  0.4767889349332273 
+set ny -0.5472535076983133   
+set nz -0.6878850992986626 
+set file [open 1.log r]
+while { [gets $file line] != -1 } {
+                      if {[lindex $line 0] == "SMD"} {
+                    puts $output "[lindex $line 1] [expr $nx*[lindex $line 5] + $ny*[lindex $line 6] + $nz*[lindex $line 7]]"
+                        }
+                      }
+                    close $file
+                    close $output
+                    
+set file [open 2.log r]
+set output [open 2.dat w]
+set nx  0.4767889349332273 
+set ny -0.5472535076983133   
+set nz -0.6878850992986626 
+set file [open 2.log r]
+while { [gets $file line] != -1 } {
+                      if {[lindex $line 0] == "SMD"} {
+                    puts $output "[lindex $line 1] [expr $nx*[lindex $line 5] + $ny*[lindex $line 6] + $nz*[lindex $line 7]]"
+                        }
+                      }
+                    close $file
+                    close $output
+                    
+                                        
+set file [open 3.log r]
+set output [open 3.dat w]
+set nx  0.4767889349332273 
+set ny -0.5472535076983133   
+set nz -0.6878850992986626 
+set file [open 3.log r]
+while { [gets $file line] != -1 } {
+                      if {[lindex $line 0] == "SMD"} {
+                    puts $output "[lindex $line 1] [expr $nx*[lindex $line 5] + $ny*[lindex $line 6] + $nz*[lindex $line 7]]"
+                        }
+                      }
+                    close $file
+                    close $output
+                    
+                                        
+set file [open 4.log r]
+set output [open 4.dat w]
+set nx  0.4767889349332273 
+set ny -0.5472535076983133   
+set nz -0.6878850992986626 
+set file [open 4.log r]
+while { [gets $file line] != -1 } {
+                      if {[lindex $line 0] == "SMD"} {
+                    puts $output "[lindex $line 1] [expr $nx*[lindex $line 5] + $ny*[lindex $line 6] + $nz*[lindex $line 7]]"
+                        }
+                      }
+                    close $file
+                    close $output
+                    
+                                        
+set file [open 5.log r]
+set output [open 5.dat w]
+set nx  0.4767889349332273 
+set ny -0.5472535076983133   
+set nz -0.6878850992986626 
+set file [open 5.log r]
+while { [gets $file line] != -1 } {
+                      if {[lindex $line 0] == "SMD"} {
+                    puts $output "[lindex $line 1] [expr $nx*[lindex $line 5] + $ny*[lindex $line 6] + $nz*[lindex $line 7]]"
+                        }
+                      }
+                    close $file
+                    close $output
+                    
+                                        
+set file [open 6.log r]
+set output [open 6.dat w]
+set nx  0.4767889349332273 
+set ny -0.5472535076983133   
+set nz -0.6878850992986626 
+set file [open 6.log r]
+while { [gets $file line] != -1 } {
+                      if {[lindex $line 0] == "SMD"} {
+                    puts $output "[lindex $line 1] [expr $nx*[lindex $line 5] + $ny*[lindex $line 6] + $nz*[lindex $line 7]]"
+                        }
+                      }
+                    close $file
+                    close $output
+                    
+                                        
+set file [open 7.log r]
+set output [open 7.dat w]
+set nx  0.4767889349332273 
+set ny -0.5472535076983133   
+set nz -0.6878850992986626 
+set file [open 7.log r]
+while { [gets $file line] != -1 } {
+                      if {[lindex $line 0] == "SMD"} {
+                    puts $output "[lindex $line 1] [expr $nx*[lindex $line 5] + $ny*[lindex $line 6] + $nz*[lindex $line 7]]"
+                        }
+                      }
+                    close $file
+                    close $output
+                    
+                                        
+set file [open 8.log r]
+set output [open 8.dat w]
+set nx  0.4767889349332273 
+set ny -0.5472535076983133   
+set nz -0.6878850992986626 
+set file [open 8.log r]
+while { [gets $file line] != -1 } {
+                      if {[lindex $line 0] == "SMD"} {
+                    puts $output "[lindex $line 1] [expr $nx*[lindex $line 5] + $ny*[lindex $line 6] + $nz*[lindex $line 7]]"
+                        }
+                      }
+                    close $file
+                    close $output
+                    
+                                                            
+set file [open 9.log r]
+set output [open 9.dat w]
+set nx  0.4767889349332273 
+set ny -0.5472535076983133   
+set nz -0.6878850992986626 
+set file [open 9.log r]
+while { [gets $file line] != -1 } {
+                      if {[lindex $line 0] == "SMD"} {
+                    puts $output "[lindex $line 1] [expr $nx*[lindex $line 5] + $ny*[lindex $line 6] + $nz*[lindex $line 7]]"
+                        }
+                      }
+                    close $file
+                    close $output                   
+
+                                        
+set file [open 10.log r]
+set output [open 10.dat w]
+set nx  0.4767889349332273 
+set ny -0.5472535076983133   
+set nz -0.6878850992986626 
+set file [open 10.log r]
+while { [gets $file line] != -1 } {
+                      if {[lindex $line 0] == "SMD"} {
+                    puts $output "[lindex $line 1] [expr $nx*[lindex $line 5] + $ny*[lindex $line 6] + $nz*[lindex $line 7]]"
+                        }
+                      }
+                    close $file
+                    close $output
+                    
+                                                            
+set file [open test.log r]
+set output [open test.dat w]
+set nx  0.4767889349332273 
+set ny -0.5472535076983133   
+set nz -0.6878850992986626 
+set file [open test.log r]
+while { [gets $file line] != -1 } {
+                      if {[lindex $line 0] == "SMD"} {
+                    puts $output "[lindex $line 1] [expr $nx*[lindex $line 5] + $ny*[lindex $line 6] + $nz*[lindex $line 7]]"
+                        }
+                      }
+                    close $file
+                    close $output
